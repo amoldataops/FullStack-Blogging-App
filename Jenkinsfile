@@ -10,7 +10,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/amoldataops/FullStack-Blogging-App.git'
             }
         }
-        stage('compile Do') {
+        stage('compile') {
             steps {
                 sh "mvn compile"
             }
